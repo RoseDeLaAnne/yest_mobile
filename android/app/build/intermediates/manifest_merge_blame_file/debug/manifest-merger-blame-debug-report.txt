@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:5:5-65
+13-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14-->[com.facebook.flipper:flipper:0.125.0] C:\Users\rosed\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.125.0] C:\Users\rosed\.gradle\caches\transforms-3\03f04a3f11198ce3b7c6cedb9b41266b\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+16-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+17
+18    <queries>
+18-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:24:5-28:15
+19        <intent>
+19-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:25:9-27:18
+20            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+20-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:26:13-86
+20-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:26:21-83
+21        </intent>
+22    </queries>
+23
+24    <application
+24-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:6:5-26:19
+25        android:name="com.yest.MainApplication"
+25-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:7:7-38
+26        android:allowBackup="false"
+26-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:11:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.7.0] C:\Users\rosed\.gradle\caches\transforms-3\63a3df243d2d102452600006144a86df\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:9:7-41
+30        android:label="@string/app_name"
+30-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:8:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:10:7-52
+32        android:theme="@style/AppTheme"
+32-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:13:7-38
+33        android:usesCleartextTraffic="true" >
+33-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:12:9-44
+34        <activity
+34-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\debug\AndroidManifest.xml:11:9-111
+35            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+35-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\debug\AndroidManifest.xml:11:19-83
+36            android:exported="false" />
+36-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\debug\AndroidManifest.xml:11:84-108
+37        <activity
+37-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:14:7-25:18
+38            android:name="com.yest.MainActivity"
+38-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:15:9-37
+39            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+39-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:17:9-118
+40            android:exported="true"
+40-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:20:9-32
+41            android:label="@string/app_name"
+41-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:16:9-41
+42            android:launchMode="singleTask"
+42-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:18:9-40
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:19:9-51
+44            <intent-filter>
+44-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:21:9-24:25
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:22:13-65
+45-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:22:21-62
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:23:13-73
+47-->C:\D\_apps\stalevich2-master\stalevich21\android\app\src\main\AndroidManifest.xml:23:23-70
+48            </intent-filter>
+49        </activity>
+50
+51        <service
+51-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\rosed\.gradle\caches\transforms-3\3948e2ba2a3cb421d7b321707deac824\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:9:9-15:19
+52            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+52-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\rosed\.gradle\caches\transforms-3\3948e2ba2a3cb421d7b321707deac824\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:10:13-91
+53            android:directBootAware="true"
+53-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:17:13-43
+54            android:exported="false" >
+54-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\rosed\.gradle\caches\transforms-3\3948e2ba2a3cb421d7b321707deac824\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:11:13-37
+55            <meta-data
+55-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\rosed\.gradle\caches\transforms-3\3948e2ba2a3cb421d7b321707deac824\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:12:13-14:85
+56                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+56-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\rosed\.gradle\caches\transforms-3\3948e2ba2a3cb421d7b321707deac824\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:13:17-120
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.1] C:\Users\rosed\.gradle\caches\transforms-3\3948e2ba2a3cb421d7b321707deac824\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.1\AndroidManifest.xml:14:17-82
+58            <meta-data
+58-->[com.google.mlkit:vision-common:16.5.0] C:\Users\rosed\.gradle\caches\transforms-3\039fa48f94fad3ea5f8a0197194916c2\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+59                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+59-->[com.google.mlkit:vision-common:16.5.0] C:\Users\rosed\.gradle\caches\transforms-3\039fa48f94fad3ea5f8a0197194916c2\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.mlkit:vision-common:16.5.0] C:\Users\rosed\.gradle\caches\transforms-3\039fa48f94fad3ea5f8a0197194916c2\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+61            <meta-data
+61-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:20:13-22:85
+62                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+62-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:21:17-120
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:22:17-82
+64        </service>
+65
+66        <provider
+66-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:9:9-13:38
+67            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+67-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:10:13-78
+68            android:authorities="com.yest.mlkitinitprovider"
+68-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:11:13-69
+69            android:exported="false"
+69-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:12:13-37
+70            android:initOrder="99" />
+70-->[com.google.mlkit:common:17.3.0] C:\Users\rosed\.gradle\caches\transforms-3\917b59e285c916b0f5786e1026e79999\transformed\jetified-common-17.3.0\AndroidManifest.xml:13:13-35
+71
+72        <service
+72-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+73            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+73-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+74            android:exported="false" >
+74-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+75            <meta-data
+75-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+76                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+76-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+77                android:value="cct" />
+77-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rosed\.gradle\caches\transforms-3\4e0a6d33173da115ab805e3c43770aba\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+78        </service>
+79        <service
+79-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+80            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+80-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+81            android:exported="false"
+81-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+82            android:permission="android.permission.BIND_JOB_SERVICE" >
+82-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+83        </service>
+84
+85        <receiver
+85-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+86            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+86-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+87            android:exported="false" />
+87-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rosed\.gradle\caches\transforms-3\d644d21585b5f5bb9076318299884de4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+88
+89        <uses-library
+89-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:31:9-33:40
+90            android:name="androidx.camera.extensions.impl"
+90-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:32:13-59
+91            android:required="false" />
+91-->[androidx.camera:camera-extensions:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\58e61cdcc3b2c1463d48046baa6d2071\transformed\jetified-camera-extensions-1.1.0-beta02\AndroidManifest.xml:33:13-37
+92
+93        <service
+93-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:26:9-35:19
+94            android:name="androidx.camera.core.impl.MetadataHolderService"
+94-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:27:13-75
+95            android:enabled="false"
+95-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:28:13-36
+96            android:exported="false" >
+96-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:29:13-37
+97            <meta-data
+97-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:32:13-34:89
+98                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+98-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:33:17-103
+99                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+99-->[androidx.camera:camera-camera2:1.1.0-beta02] C:\Users\rosed\.gradle\caches\transforms-3\3e86f85b9f78edbc133d3eb4648b358d\transformed\jetified-camera-camera2-1.1.0-beta02\AndroidManifest.xml:34:17-86
+100        </service>
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\99086761837322cb0f1f8393bad2ef8e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\99086761837322cb0f1f8393bad2ef8e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\99086761837322cb0f1f8393bad2ef8e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\99086761837322cb0f1f8393bad2ef8e\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\03468a638f098ffe87531554bfca6ff7\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\03468a638f098ffe87531554bfca6ff7\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\rosed\.gradle\caches\transforms-3\03468a638f098ffe87531554bfca6ff7\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+113            android:authorities="com.yest.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rosed\.gradle\caches\transforms-3\b6fe4da57007a43d86a66ba4c66459bd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rosed\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rosed\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rosed\.gradle\caches\transforms-3\bc74a39e1ea23fea00bfcf2682a93948\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+121        </provider>
+122    </application>
+123
+124</manifest>
